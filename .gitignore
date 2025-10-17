@@ -1,2 +1,5 @@
 alvi-env
+alenv
 alenv.yaml
+.envrc
+.alenv-disabled

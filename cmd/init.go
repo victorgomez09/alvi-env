@@ -13,7 +13,8 @@ var initCommand = &cobra.Command{
 	Short:   "Initialize alenv in current directory",
 	Run: func(cmd *cobra.Command, args []string) {
 		log.Printf("Creating Alenv configuration file")
-		actions.InitializeConfig()
+		// actions.InitializeConfig()
+		actions.InitEnvrc()
 	},
 }
 
